@@ -1,7 +1,7 @@
 ---
-stagingX: !ruby/struct:Dollhouse::OnlineServer
-  name_in_cloud: stagingX
-  server_name: staging_server
-  ip: IP.GO.HERE
+hudson: !ruby/struct:Dollhouse::OnlineServer
+  name_in_cloud: hudson
+  server_name: hudson
+  ip: 172.16.106.128
   status: :running
-  deployment_name: staging
+  deployment_name: hudson
