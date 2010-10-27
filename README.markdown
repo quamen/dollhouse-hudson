@@ -1,3 +1,11 @@
+# Experiments
+
+1. We should not need to ssh as root.
+2. We should not have to remember to scp, that should be part of the default setup.
+3. Dollhouse should lock down ssh to keys only after copying your key to the server.
+4. Build a friggin Gem.
+
+
 # Dollhouse Hudson
 
 [Dollhouse](http://github.com/geelen/dollhouse) configuration for turning a vanilla ubuntu install into a functioning hudson-ci server.
